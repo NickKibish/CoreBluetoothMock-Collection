@@ -17,10 +17,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/NickKibish/IOS-CoreBluetooth-Mock.git",
-            branch: "main"
-//            url: "https://github.com/NordicSemiconductor/IOS-CoreBluetooth-Mock.git",
-//            from: "0.16.1"
+            url: "https://github.com/NordicSemiconductor/IOS-CoreBluetooth-Mock.git",
+            from: "0.17.0"
         ),
         .package(
             url: "https://github.com/NickKibish/iOS-Bluetooth-Numbers-Database.git",
