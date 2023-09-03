@@ -1,4 +1,4 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -22,7 +22,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/NickKibish/iOS-Bluetooth-Numbers-Database.git",
-            branch: "main"
+            from: "1.0.0"
         )
     ],
     targets: [
