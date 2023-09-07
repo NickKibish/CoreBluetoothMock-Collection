@@ -439,7 +439,7 @@ public class RunningSpeedAndCadence {
             measurementTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { [weak self] _ in
                 guard let `self` else { return }
                 self.randomizeMeasurement(flags: .all)
-                peripheral.simulateValueUpdate(self.measurement.data , for: .rscMeasurement)
+                self.peripheral.simulateValueUpdate(self.measurement.data , for: .rscMeasurement)
             })
         }
     }
