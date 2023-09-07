@@ -5,7 +5,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/NickKibish/iOS-Bluetooth-Numbers-Database.git",
       "state" : {
-        "revision" : "71c3d1d0e1bb6e7a59da3aed8e2a2a2ddfd5fd8c",
+        "revision" : "40ae8d7050d16fc2603c314dd560a7992c35f56f",
         "version" : "1.0.0"
       }
     },
