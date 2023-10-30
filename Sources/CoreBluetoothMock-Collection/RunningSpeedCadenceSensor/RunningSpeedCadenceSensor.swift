@@ -295,6 +295,7 @@ public extension RunningSpeedAndCadence {
 
         public init(responseCode: ResponseCode) {
             response = SCControlPointResponse(opCode: .setCumulativeValue, responseValue: responseCode, parameter: nil)
+            
         }
 
         public init?(from data: Data) {
