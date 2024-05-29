@@ -10,7 +10,10 @@ import iOS_Bluetooth_Numbers_Database
 import CoreBluetoothMock
 
 public class HeartRateSensor {
-    
+    let services: [CBUUID] = [
+        CBUUID(service: .heartRate),
+        CBUUID(service: .deviceInformation)
+    ]
 }
 
 public extension HeartRateSensor {
